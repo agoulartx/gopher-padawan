@@ -5,8 +5,8 @@ import "fmt"
 func main() {
 	// %d -> Decimal
 	// %b -> Binary
-	// %x -> Hexa lowercase
-	// %X -> Hera uppercase
+	// %x -> Hexa lowercase (HexaL)
+	// %X -> Hera uppercase (HexaU)
 	// %q -> utf-8 table
 
 	// Prints all the conversions above between 0-100

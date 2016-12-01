@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+
 	// Shorthand declaration
 
 	a := 10
@@ -24,6 +25,7 @@ func main() {
 	fmt.Printf("%T \n", d)
 
 	// Declare zero values
+
 	fmt.Println("-----------\n")
 	var e int
 	var f string

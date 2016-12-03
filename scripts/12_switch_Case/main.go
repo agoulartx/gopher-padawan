@@ -24,6 +24,5 @@ func main(){
 		fmt.Println("Welcome Maria")
 	default:
 		fmt.Println("Nenhum")
-
 	}
 }

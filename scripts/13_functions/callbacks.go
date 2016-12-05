@@ -6,3 +6,13 @@ func Printslice(numbers []int, callback func(int)) {
 		callback(n)
 	}
 }
+
+func Filter(numbers []int, callback func(int) bool) []int {
+	xs := []int{}
+	for _, n := range numbers {
+		if callback(n) {
+			xs = append(xs, n)
+		}
+	}
+	return xs
+}

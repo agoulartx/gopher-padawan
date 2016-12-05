@@ -48,6 +48,10 @@ func main(){
 		return n % 2 ==0
 	})
 	fmt.Println(xs)
+	fmt.Println("-------------------")
 
+	// Recursion
+	fac := functions.Factorial(5)
+	fmt.Println(fac)
 
 }

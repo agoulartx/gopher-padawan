@@ -26,4 +26,15 @@ func main(){
 	// Func Expression
 
 	functions.Expression()
+	fmt.Println("-------------------")
+
+	// Closures
+
+	closure := functions.Wrapper()
+	//Wrapper is a function that returns a function
+	fmt.Println("X value: ",closure())
+	fmt.Println("X value: ",closure())
+	fmt.Println("X value: ",closure())
+	fmt.Println("X value: ",closure())
+
 }

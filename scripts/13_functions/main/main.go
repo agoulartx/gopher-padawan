@@ -23,4 +23,7 @@ func main(){
 	fmt.Println(v)
 	fmt.Println("-------------------")
 
+	// Func Expression
+
+	functions.Expression()
 }

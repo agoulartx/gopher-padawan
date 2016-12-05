@@ -37,4 +37,12 @@ func main(){
 	fmt.Println("X value: ",closure())
 	fmt.Println("X value: ",closure())
 
+	// Callback
+	fmt.Println("-------------------")
+	functions.Printslice([]int{1,2,3,4,5,4,3,2,1}, func(n int){
+		fmt.Println(n)
+	})
+	fmt.Println("-------------------")
+
+
 }
